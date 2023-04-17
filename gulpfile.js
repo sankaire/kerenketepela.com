@@ -3,5 +3,4 @@ function defaultTask(cb) {
   cb();
 }
 
-const _default = defaultTask;
-export { _default as default };
+export { defaultTask as default };
