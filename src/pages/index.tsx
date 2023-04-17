@@ -1,5 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import {
   AiFillGithub,
   AiFillTwitterCircle,
@@ -39,9 +40,9 @@ const Home: NextPage = () => {
             >
               <AiFillLinkedin />
             </a>
-            <a href="/blog" className="text-3xl text-[hsl(280,100%,70%)]">
+            <Link href="/blog" className="text-3xl text-[hsl(280,100%,70%)]">
               <GrBlog />
-            </a>
+            </Link>
           </div>
         </div>
       </main>
