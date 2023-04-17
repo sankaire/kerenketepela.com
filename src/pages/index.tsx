@@ -6,7 +6,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
 } from "react-icons/ai";
-import { GrBlog } from "react-icons/gr";
+import { FaBlog } from "react-icons/fa";
 
 const Home: NextPage = () => {
   return (
@@ -40,8 +40,8 @@ const Home: NextPage = () => {
             >
               <AiFillLinkedin />
             </a>
-            <Link href="/blog" className="text-3xl text-[hsl(280,100%,70%)]">
-              <GrBlog />
+            <Link href="/blog" className="text-3xl text-white">
+              <FaBlog />
             </Link>
           </div>
         </div>
