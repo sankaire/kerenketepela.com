@@ -16,7 +16,7 @@ I thought I could reach out to more people to tell them about my thoughts and op
 
 ### Why did I create my own bloging thing?
 
-Well there's alot of blogging plartforms out there. I created mine because I wanted to be cool like [This guy](https://twitter.com/the_kibuika) 😎 dry jokes, but fo real here are the reasons
+Well there's alot of blogging plartforms out there. I created mine because I wanted to be cool like [This guy](https://twitter.com/the_kibuika) 😎, but fo real here are the reasons
 
 - Post what I want.
 - brand my self.
