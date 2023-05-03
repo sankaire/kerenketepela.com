@@ -2,7 +2,7 @@
 title: "Let the rants begin"
 metaTitle: "Let the rants begin"
 metaDesc: "I think it is time for me to start ranting about random stuff on the internet I hope I am not wrong 😑"
-description: "I think it is time for me to start rating random stuff on the internet I hope I am not wrong 😑"
+description: "I think it is time for me to start ranting about random stuff on the internet I hope I am not wrong 😑"
 date: "2022-05-03"
 tags:
   - nextjs
