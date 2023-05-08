@@ -5,11 +5,11 @@ import Link from "next/link";
 
 const Blog: NextPage = ({ posts }: any) => {
   return (
-    <div className="flex min-h-screen flex-col  gap-12 bg-gray-800">
+    <div className="flex min-h-screen flex-col  gap-12 bg-gray-600">
       <h1 className="text-center text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
         Blogs 📖
       </h1>
-      <div className="flex h-screen w-3/4  self-center">
+      <div className="mb-4 flex h-screen w-3/4 flex-col gap-12 self-center">
         {posts.map(({ slug, frontmatter }: any) => (
           <div key={slug} className="mx-auto text-2xl text-[hsl(280,100%,70%)]">
             <Link href={`/post/${slug}`}>
@@ -26,7 +26,6 @@ const Blog: NextPage = ({ posts }: any) => {
 
 export async function getStaticProps() {
   const files = fs.readdirSync("src/posts");
-  console.log(files);
   const posts = files.map((fileName) => {
     const slug = fileName.replace(".md", "");
     const readFile = fs.readFileSync(`src/posts/${fileName}`, "utf-8");
